@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Select a Dristrict"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:layout_marginTop="8dp" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:id="@+id/myFragment"
+        android:name="com.example.bdknoledge.BlankFragment"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
